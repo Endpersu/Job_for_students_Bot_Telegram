@@ -14,29 +14,39 @@ dp = Dispatcher()
 
 
 class Form(StatesGroup):
-    name = State()
+    first_name = State()
+    second_name = State()
     age = State()
     job = State()
 
 
 @dp.message(Command('start'))
 async def cmd_start(message: types.Message, state: FSMContext):
-    await state.set_state(Form.name)
+    await state.set_state(Form.first_name)
     await message.answer("Как вас зовут?")
 
 
-@dp.message(Form.name)
-async def process_name(message: types.Message, state: FSMContext):
-    await state.update_data(name=message.text)
+@dp.message(Form.first_name)
+async def process_first_name(message: types.Message, state: FSMContext):
+    await state.update_data(first_name=message.text)
+    await state.set_state(Form.second_name)
+    await message.answer(
+        f"Приятно познакомиться, {message.text}! Какая у вас фамилия?")
+
+
+@dp.message(Form.second_name)
+async def process_second_name(message: types.Message, state: FSMContext):
+    await state.update_data(second_name=message.text)
     await state.set_state(Form.age)
     await message.answer(
-        f"Приятно познакомиться, {message.text}! Сколько вам лет?")
+        f"Какой у вас возраст?")
 
 
 @dp.message(Form.age)
 async def process_age(message: types.Message, state: FSMContext):
     if not message.text.isdigit():
         await message.answer("Пожалуйста, введите число!")
+        return
     await state.set_state(Form.job)
     await message.answer(
         f"Ваш возраст: {message.text}. Какая ваша желаемая сфера деятельности в подработке?"
@@ -51,7 +61,8 @@ async def process_job(message: types.Message, state: FSMContext):
     print(data)
     await message.answer(
         f"Спасибо, что заполнили анкету!\n"
-        f"Имя: {data["name"]}\n"
+        f"Имя: {data["first_name"]}\n"
+        f"Фамилия: {data["second_name"]}\n"
         f"Возраст {message.text}\n"
         f"Сфера деятельности: {data["job"]}"
     )
