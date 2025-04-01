@@ -19,13 +19,14 @@ async def main():
     bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode="HTML"))
     dp = Dispatcher()
 
-    from private_chat import setup_private_handlers
+    from private_chat import anketa
     from group_chat import setup_group_handlers
     from channel import setup_channel_handlers
 
-    setup_private_handlers(dp)
+    anketa(dp)
     setup_group_handlers(dp)
     setup_channel_handlers(dp, bot)
+
 
     logger.info("Бот запущен")
     try:
