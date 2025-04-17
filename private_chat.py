@@ -21,11 +21,11 @@ def anketa(dp: Dispatcher):
         db = Database()
         db.add_user(message.from_user.id, message.from_user.username)
         db.print_users()
-        logger.info('Пользователь написал свое имя')
 
     @dp.message(Form.first_name)
     async def process_first_name(message: types.Message, state: FSMContext):
         await state.update_data(first_name=message.text)
+        logger.info('Пользователь написал свое имя')
         await state.set_state(Form.second_name)
         await message.answer(f"Приятно познакомиться, {message.text}! Какая у Вас фамилия?")
 
