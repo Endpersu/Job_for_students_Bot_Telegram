@@ -2,10 +2,11 @@ import asyncio
 import os
 from loguru import logger
 from dotenv import load_dotenv, find_dotenv
-from aiogram import Bot, Dispatcher, types
+from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
-from aiogram.filters import Command
-from userdatabase import Database
+from private_chat import anketa
+from group_chat import setup_group_handlers
+from channel import setup_channel_handlers
 
 load_dotenv(find_dotenv())
 TOKEN = os.getenv("TOKEN")
@@ -19,27 +20,11 @@ async def main():
                diagnose=True)
 
     bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode="HTML"))
-
     dp = Dispatcher()
-    db = Database()
-    
-    @dp.message(Command('start'))
-    async def start_command(message: types.Message):
-        user_id = message.from_user.id
-        username = message.from_user.username if message.from_user.username else "У пользователя нет username"
-        
-        db.add_user(user_id, username)
-        db.print_users()
-
-
-    from private_chat import anketa
-    from group_chat import setup_group_handlers
-    from channel import setup_channel_handlers
 
     anketa(dp)
     setup_group_handlers(dp)
     setup_channel_handlers(dp, bot)
-
 
     logger.info("Бот запущен")
     try:
@@ -47,7 +32,6 @@ async def main():
     finally:
         await bot.session.close()
         logger.info("Бот остановлен")
-
 
 if __name__ == '__main__':
     asyncio.run(main())
