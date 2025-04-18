@@ -2,6 +2,7 @@ from aiogram import Dispatcher, types
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from userdatabase import Database
 from loguru import logger
 
@@ -60,4 +61,10 @@ def anketa(dp: Dispatcher):
             f"Сфера деятельности: {data['job']}"
         )
         logger.info('Пользователь получил свою анкету')
+        button_yes = KeyboardButton()
+        button_no = KeyboardButton()
+        check_anketa = ReplyKeyboardMarkup()
+        check_anketa.add(button_yes)
+        check_anketa.add(button_no)
+        await message.reply("Вы ввели правильные данные?", reply_markup=button_yes)
         await state.clear()
