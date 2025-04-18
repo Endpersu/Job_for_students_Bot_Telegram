@@ -18,7 +18,8 @@ def anketa(dp: Dispatcher):
     @dp.message(Command('start'))
     async def cmd_start(message: types.Message, state: FSMContext):
         await state.set_state(Form.first_name)
-        await message.answer("Как Вас зовут?")
+        await message.answer("Здравствуйте, давайте заполним мини-анкету")
+        await message.answer("Как вас зовут?")
         db = Database()
         db.add_user(message.from_user.id, message.from_user.username)
         db.print_users()
@@ -28,14 +29,18 @@ def anketa(dp: Dispatcher):
         await state.update_data(first_name=message.text)
         logger.info('Пользователь написал свое имя')
         await state.set_state(Form.second_name)
-        await message.answer(f"Приятно познакомиться, {message.text}! Какая у Вас фамилия?")
+        await message.answer(f"Приятно познакомиться, {message.text}! Какая у вас фамилия?")
 
     @dp.message(Form.second_name)
     async def process_second_name(message: types.Message, state: FSMContext):
+        if message.text.isdigit():
+            await message.answer("Пожалуйста, введите фамилию.")
+            logger.info("Пользователь написал фамилию некорректно")
+            return
         await state.update_data(second_name=message.text)
         logger.info('Пользователь написал свою фамилию')
         await state.set_state(Form.age)
-        await message.answer(f"Какой у Вас возраст?")
+        await message.answer(f"Какой у вас возраст?")
 
     @dp.message(Form.age)
     async def process_age(message: types.Message, state: FSMContext):
@@ -45,7 +50,7 @@ def anketa(dp: Dispatcher):
             return
         await state.update_data(age=message.text)
         await state.set_state(Form.job)
-        await message.answer(f"Ваш возраст: {message.text}. Какая Ваша желаемая сфера деятельности в подработке?")
+        await message.answer(f"Ваш возраст: {message.text}. Какая ваша желаемая сфера деятельности в подработке?")
         logger.info('Пользователь ввел возраст')
 
     @dp.message(Form.job)
@@ -61,10 +66,20 @@ def anketa(dp: Dispatcher):
             f"Сфера деятельности: {data['job']}"
         )
         logger.info('Пользователь получил свою анкету')
-        button_yes = KeyboardButton()
-        button_no = KeyboardButton()
-        check_anketa = ReplyKeyboardMarkup()
-        check_anketa.add(button_yes)
-        check_anketa.add(button_no)
-        await message.reply("Вы ввели правильные данные?", reply_markup=button_yes)
+        buttons = [
+            [types.KeyboardButton(text="Да✅"), types.KeyboardButton(text="Нет❌")]
+        ]
+        keyboard = types.ReplyKeyboardMarkup(keyboard=buttons)
+        await message.answer("Вы правильно ввели свои данные?", reply_markup=keyboard)
+        logger.info("Пользователь проверяет свои данные")
+        @dp.message(lambda message: message.text in ["Да✅", "Нет❌"])
+        async def handle_button_click(message: types.Message, state: FSMContext):
+            if message.text == "Нет❌":
+                await state.set_state(Form.first_name)
+                await message.answer("Введите анкету заново")
+                logger.info("Пользователь вводит анкету заново")
+                await message.answer("Как вас зовут?")
+            elif message.text == "Да✅":
+                await message.answer("Заполнение мини-анкеты завершено. Переходим в меню.")
+        
         await state.clear()
