@@ -3,7 +3,6 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 def get_main_keyboard() -> ReplyKeyboardMarkup:
     buttons = [
-        [KeyboardButton(text="Создать резюме📝")],
         [KeyboardButton(text="О нас🔴"), KeyboardButton(text="Ваш профиль👤")],
         [KeyboardButton(text="Поиск подработки🔍")]
     ]
@@ -21,4 +20,3 @@ def get_profile_keyboard() -> ReplyKeyboardMarkup:
         [KeyboardButton(text="Вернуться в меню⬅️")]
     ]
     return ReplyKeyboardMarkup(keyboard=buttons, resize_keyboard=True)
-# Функция поиск подработки и создать резюме в процессе

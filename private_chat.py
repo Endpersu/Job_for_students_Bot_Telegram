@@ -14,6 +14,7 @@ class Form(StatesGroup):
     age = State()
     job = State()
     photo = State()
+    city = State()
 
 
 def anketa(dp: Dispatcher):
@@ -129,4 +130,9 @@ def anketa(dp: Dispatcher):
                     reply_markup=get_main_keyboard()
                 )
 
+        @dp.message(F.text == "Редактировать профиль✏️")
+        async def edit_profile(message: types.message, state: FSMContext):
+            await state.set_state(Form.first_name)
+            await message.answer("Давайте редактируем ваш профиль. Как вас зовут?", reply_markup=ReplyKeyboardRemove())
+            logger.info("Пользователь начал редактирование профиля")
         await state.clear()
