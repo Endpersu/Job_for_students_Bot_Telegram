@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Test\Desktop\Bot\Job_for_students_Bot_Telegram\.venv"
+VIRTUAL_ENV="C:\Users\Test\Desktop\укеукеукеук\Job_for_students_Bot_Telegram\Job_for_students_Bot_Telegram\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

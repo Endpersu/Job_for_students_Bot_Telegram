@@ -12,9 +12,7 @@ class Form(StatesGroup):
     first_name = State()
     second_name = State()
     age = State()
-    job = State()
-    photo = State()
-    city = State()
+    profession = State()
 
 
 def anketa(dp: Dispatcher):
@@ -52,13 +50,13 @@ def anketa(dp: Dispatcher):
             logger.info('Пользователь написал возраст некорректно')
             return
         await state.update_data(age=message.text)
-        await state.set_state(Form.job)
+        await state.set_state(Form.profession)
         await message.answer(f"Ваш возраст: {message.text}. Какая ваша желаемая сфера деятельности в подработке?")
         logger.info('Пользователь ввел возраст')
 
-    @dp.message(Form.job)
+    @dp.message(Form.profession)
     async def process_job(message: types.Message, state: FSMContext):
-        await state.update_data(job=message.text)
+        await state.update_data(profession=message.text)
         logger.info('Пользователь написал свою деятельность')
         data = await state.get_data()
         await message.answer(
@@ -66,7 +64,7 @@ def anketa(dp: Dispatcher):
             f"Имя: {data['first_name']}\n"
             f"Фамилия: {data['second_name']}\n"
             f"Возраст: {data['age']}\n"
-            f"Сфера деятельности: {data['job']}"
+            f"Сфера деятельности: {data['profession']}"
         )
         logger.info('Пользователь получил свою анкету')
         buttons = [
