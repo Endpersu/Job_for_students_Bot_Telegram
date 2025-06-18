@@ -6,6 +6,8 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemo
 from User_menu import get_main_keyboard, get_back_keyboard, get_profile_keyboard
 from userdatabase import Database
 from loguru import logger
+from parser_hh import get_vacancies_by_profession
+import json
 
 
 class Form(StatesGroup):
@@ -105,6 +107,56 @@ def anketa(dp: Dispatcher):
                 "Главное меню:",
                 reply_markup=get_main_keyboard()
                 )
+        
+        @dp.message(F.text == "Поиск подработки🔍")
+        async def search_job(message: types.Message, state: FSMContext):
+            await state.set_state(Form.profession)
+            profession = data['profession']
+            logger.info(f"Ищем вакансии по профессии: {profession}")
+
+            # Вызываем парсер
+            get_vacancies_by_profession(profession)
+
+            try:
+                with open("hh_vacancies.json", 'r', encoding='utf-8') as file:
+                    vacancies = json.load(file)
+
+                if vacancies.get("items"):
+                    for item in vacancies["items"][:5]:  # Показываем первые 5 вакансий
+                        vacancy_name = item['name']
+                        city_name = item['area']['name']
+                        alternate_url = item['alternate_url']
+
+                        money_1 = item['salary']['from'] if item['salary'] else None
+                        money_2 = item['salary']['to'] if item['salary'] else None
+
+                        if money_1 and money_2:
+                            salary_str = f"{money_1} – {money_2}"
+                        elif money_1:
+                            salary_str = f"от {money_1}"
+                        elif money_2:
+                            salary_str = f"до {money_2}"
+                        else:
+                            salary_str = "Не указана"
+
+                        requirement = item['snippet']['requirement'] or "Не указано"
+                        responsibility = item['snippet']['responsibility'] or "Не указано"
+
+                        vacancy_info = (
+                            f"📌 Вакансия: {vacancy_name}\n"
+                            f"🏙 Город: {city_name}\n"
+                            f"💰 Зарплата: {salary_str}\n"
+                            f"📝 Требования: {requirement}\n"
+                            f"📋 Обязанности: {responsibility}\n"
+                            f"🔗 Ссылка: {alternate_url}"
+                        )
+                        await message.answer(vacancy_info)
+
+                else:
+                    await message.answer("Нет вакансий по вашей профессии.")
+
+            except FileNotFoundError:
+                await message.answer("Ошибка: данные не загружены. Попробуйте позже.")
 
         @dp.message(F.text == "Ваш профиль👤")
         async def show_profile(message: types.Message):

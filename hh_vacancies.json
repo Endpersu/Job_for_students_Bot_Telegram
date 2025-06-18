@@ -1,138 +1,6 @@
 {
     "items": [
         {
-            "id": "120859091",
-            "premium": false,
-            "name": "Водитель-охранник / помощник по хозяйству",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "1",
-                "name": "Москва",
-                "url": "https://api.hh.ru/areas/1"
-            },
-            "salary": {
-                "from": 100000,
-                "to": 100000,
-                "currency": "RUR",
-                "gross": false
-            },
-            "salary_range": {
-                "from": 100000,
-                "to": 100000,
-                "currency": "RUR",
-                "gross": false,
-                "mode": {
-                    "id": "SHIFT",
-                    "name": "За смену"
-                },
-                "frequency": null
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": "Московская область",
-                "street": "Рублёво-Успенское шоссе",
-                "building": null,
-                "lat": 55.724799,
-                "lng": 37.152308,
-                "description": null,
-                "raw": "Московская область, Рублёво-Успенское шоссе",
-                "metro": null,
-                "metro_stations": [],
-                "id": "16368308"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2025-05-22T11:43:01+0300",
-            "created_at": "2025-05-22T11:43:01+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=120859091",
-            "show_contacts": true,
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/120859091?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/120859091",
-            "relations": [],
-            "employer": {
-                "id": "11359666",
-                "name": "Тебердиева Инна Анатольевна",
-                "url": "https://api.hh.ru/employers/11359666",
-                "alternate_url": "https://hh.ru/employer/11359666",
-                "logo_urls": null,
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11359666",
-                "accredited_it_employer": false,
-                "employer_rating": {
-                    "total_rating": "0",
-                    "reviews_count": 0
-                },
-                "trusted": true
-            },
-            "snippet": {
-                "requirement": "Хорошее знание Москвы, опыт работы в московских семьях, хорошие водительские навыки, чистота в машине, безопасное вождение , субординация, помощь по хозяйству.",
-                "responsibility": "Вождение автомобиля представительского класса, в свободное от вождения время просмотр за пропускным режимом на территорию, закупка продуктов, личные поручения, помощь..."
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "flyInFlyOut",
-                "name": "Вахтовый метод"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": false,
-            "fly_in_fly_out_duration": [
-                {
-                    "id": "OTHER",
-                    "name": "Другое"
-                }
-            ],
-            "work_format": [
-                {
-                    "id": "ON_SITE",
-                    "name": "На месте работодателя"
-                }
-            ],
-            "working_hours": [
-                {
-                    "id": "OTHER",
-                    "name": "Другое"
-                }
-            ],
-            "work_schedule_by_days": [
-                {
-                    "id": "OTHER",
-                    "name": "Другое"
-                }
-            ],
-            "night_shifts": false,
-            "professional_roles": [
-                {
-                    "id": "90",
-                    "name": "Охранник"
-                }
-            ],
-            "accept_incomplete_resumes": false,
-            "experience": {
-                "id": "between3And6",
-                "name": "От 3 до 6 лет"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "employment_form": {
-                "id": "FLY_IN_FLY_OUT",
-                "name": "Вахта"
-            },
-            "internship": false,
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
             "id": "118585476",
             "premium": false,
             "name": "Водитель с личным грузовым автомобилем от 5-10 тонн (Москва-Московская область)",
@@ -179,8 +47,8 @@
             },
             "response_url": null,
             "sort_point_distance": null,
-            "published_at": "2025-05-14T16:19:49+0300",
-            "created_at": "2025-05-14T16:19:49+0300",
+            "published_at": "2025-06-17T11:14:06+0300",
+            "created_at": "2025-06-17T11:14:06+0300",
             "archived": false,
             "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=118585476",
             "show_logo_in_search": null,
@@ -257,9 +125,9 @@
             "adv_context": null
         },
         {
-            "id": "120296468",
+            "id": "121129558",
             "premium": false,
-            "name": "Водитель-экспедитор с личным грузовым автомобилем 3,5-5 тонн",
+            "name": "Водитель категории B",
             "department": null,
             "has_test": false,
             "response_letter_required": false,
@@ -272,149 +140,20 @@
                 "from": 350000,
                 "to": null,
                 "currency": "RUR",
-                "gross": false
+                "gross": true
             },
             "salary_range": {
                 "from": 350000,
                 "to": null,
                 "currency": "RUR",
-                "gross": false,
-                "mode": {
-                    "id": "MONTH",
-                    "name": "За месяц"
-                },
-                "frequency": null
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": "Домодедово",
-                "street": "микрорайон Северный, Логистическая улица",
-                "building": null,
-                "lat": 55.476072,
-                "lng": 37.727275,
-                "description": null,
-                "raw": "Домодедово, микрорайон Северный, Логистическая улица",
-                "metro": null,
-                "metro_stations": [],
-                "id": "7080899"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2025-05-21T18:18:21+0300",
-            "created_at": "2025-05-21T18:18:21+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=120296468",
-            "show_logo_in_search": null,
-            "show_contacts": true,
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/120296468?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/120296468",
-            "relations": [],
-            "employer": {
-                "id": "5790585",
-                "name": "Логист Сервис",
-                "url": "https://api.hh.ru/employers/5790585",
-                "alternate_url": "https://hh.ru/employer/5790585",
-                "logo_urls": {
-                    "original": "https://img.hhcdn.ru/employer-logo-original/1172937.png",
-                    "90": "https://img.hhcdn.ru/employer-logo/6312174.png",
-                    "240": "https://img.hhcdn.ru/employer-logo/6312175.png"
-                },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5790585",
-                "accredited_it_employer": false,
-                "employer_rating": null,
-                "trusted": true
-            },
-            "snippet": {
-                "requirement": "Наличие личного грузового автомобиля грузоподъемностью от 3,5 до 5 тонн. Пунктуальность и ответственность. Контроль сопроводительной документации. Желание работать и...",
-                "responsibility": "Доставка продуктов питания по г.Москва и Московской области. Ведение сопроводительной документации."
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": true,
-            "fly_in_fly_out_duration": [],
-            "work_format": [
-                {
-                    "id": "FIELD_WORK",
-                    "name": "Разъездной"
-                }
-            ],
-            "working_hours": [
-                {
-                    "id": "HOURS_8",
-                    "name": "8 часов"
-                }
-            ],
-            "work_schedule_by_days": [
-                {
-                    "id": "FIVE_ON_TWO_OFF",
-                    "name": "5/2"
-                }
-            ],
-            "night_shifts": false,
-            "professional_roles": [
-                {
-                    "id": "21",
-                    "name": "Водитель"
-                }
-            ],
-            "accept_incomplete_resumes": true,
-            "experience": {
-                "id": "noExperience",
-                "name": "Нет опыта"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "employment_form": {
-                "id": "FULL",
-                "name": "Полная"
-            },
-            "internship": false,
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "120710260",
-            "premium": false,
-            "name": "Водитель на своем грузовом автомобиле",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "1",
-                "name": "Москва",
-                "url": "https://api.hh.ru/areas/1"
-            },
-            "salary": {
-                "from": 350000,
-                "to": null,
-                "currency": "RUR",
-                "gross": false
-            },
-            "salary_range": {
-                "from": 350000,
-                "to": null,
-                "currency": "RUR",
-                "gross": false,
+                "gross": true,
                 "mode": {
                     "id": "MONTH",
                     "name": "За месяц"
                 },
                 "frequency": {
-                    "id": "TWICE_PER_MONTH",
-                    "name": "Два раза в месяц"
+                    "id": "WEEKLY",
+                    "name": "Раз в неделю"
                 }
             },
             "type": {
@@ -424,37 +163,37 @@
             "address": null,
             "response_url": null,
             "sort_point_distance": null,
-            "published_at": "2025-05-19T14:12:08+0300",
-            "created_at": "2025-05-19T14:12:08+0300",
+            "published_at": "2025-05-29T14:15:53+0300",
+            "created_at": "2025-05-29T14:15:53+0300",
             "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=120710260",
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121129558",
             "show_logo_in_search": null,
-            "show_contacts": false,
+            "show_contacts": true,
             "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/120710260?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/120710260",
+            "url": "https://api.hh.ru/vacancies/121129558?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/121129558",
             "relations": [],
             "employer": {
-                "id": "9838394",
-                "name": "ТК Фаэтон",
-                "url": "https://api.hh.ru/employers/9838394",
-                "alternate_url": "https://hh.ru/employer/9838394",
+                "id": "11724516",
+                "name": "Мэни Хэндс",
+                "url": "https://api.hh.ru/employers/11724516",
+                "alternate_url": "https://hh.ru/employer/11724516",
                 "logo_urls": {
-                    "original": "https://img.hhcdn.ru/employer-logo-original/1334674.jpg",
-                    "90": "https://img.hhcdn.ru/employer-logo/6958706.jpeg",
-                    "240": "https://img.hhcdn.ru/employer-logo/6958707.jpeg"
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1426110.png",
+                    "90": "https://img.hhcdn.ru/employer-logo/7324089.png",
+                    "240": "https://img.hhcdn.ru/employer-logo/7324090.png"
                 },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9838394",
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11724516",
                 "accredited_it_employer": false,
                 "employer_rating": {
-                    "total_rating": "4",
-                    "reviews_count": 4
+                    "total_rating": "5",
+                    "reviews_count": 2
                 },
                 "trusted": true
             },
             "snippet": {
-                "requirement": "Наличие личного / арендованного грузового автомобиля от 1,5 тонн. Знание дорог Москвы и Московской области. Наличие телефона или планшета на...",
-                "responsibility": "Адресная доставка стройматериалов, товаров для дома. Участие в погрузке и разгрузке товара. Работа в удобном приложении."
+                "requirement": "Амбициозность, желание зарабатывать. Опыт вождения категория B (от 1 года). Наличие собственного авто от 4 метров (не битый, без ржавчины). ",
+                "responsibility": "Доставка строительных материалов по Москве и Московской области. Погрузка/разгрузка. Взаимодействие с логистами и клиентами."
             },
             "contacts": null,
             "schedule": {
@@ -474,16 +213,8 @@
             ],
             "working_hours": [
                 {
-                    "id": "HOURS_7",
-                    "name": "7 часов"
-                },
-                {
                     "id": "HOURS_8",
                     "name": "8 часов"
-                },
-                {
-                    "id": "HOURS_9",
-                    "name": "9 часов"
                 },
                 {
                     "id": "HOURS_10",
@@ -502,22 +233,157 @@
                 {
                     "id": "THREE_ON_THREE_OFF",
                     "name": "3/3"
-                },
+                }
+            ],
+            "night_shifts": false,
+            "professional_roles": [
                 {
-                    "id": "TWO_ON_TWO_OFF",
-                    "name": "2/2"
+                    "id": "21",
+                    "name": "Водитель"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "employment_form": {
+                "id": "FULL",
+                "name": "Полная"
+            },
+            "internship": false,
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "118108383",
+            "premium": false,
+            "name": "Водитель с личным грузовым автомобилем",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 200000,
+                "to": 545000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "salary_range": {
+                "from": 200000,
+                "to": 545000,
+                "currency": "RUR",
+                "gross": false,
+                "mode": {
+                    "id": "MONTH",
+                    "name": "За месяц"
                 },
-                {
-                    "id": "WEEKEND",
-                    "name": "По выходным"
+                "frequency": null
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": null,
+                "street": null,
+                "building": null,
+                "lat": null,
+                "lng": null,
+                "description": null,
+                "raw": null,
+                "metro": {
+                    "station_name": "Домодедовская",
+                    "line_name": "Замоскворецкая",
+                    "station_id": "2.38",
+                    "line_id": "2",
+                    "lat": 55.610131,
+                    "lng": 37.717111
                 },
-                {
-                    "id": "FLEXIBLE",
-                    "name": "Свободный"
+                "metro_stations": [
+                    {
+                        "station_name": "Домодедовская",
+                        "line_name": "Замоскворецкая",
+                        "station_id": "2.38",
+                        "line_id": "2",
+                        "lat": 55.610131,
+                        "lng": 37.717111
+                    },
+                    {
+                        "station_name": "Орехово",
+                        "line_name": "Замоскворецкая",
+                        "station_id": "2.96",
+                        "line_id": "2",
+                        "lat": 55.61269,
+                        "lng": 37.695214
+                    }
+                ],
+                "id": "12746753"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2025-06-10T11:22:39+0300",
+            "created_at": "2025-06-10T11:22:39+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=118108383",
+            "show_logo_in_search": null,
+            "show_contacts": true,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/118108383?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/118108383",
+            "relations": [],
+            "employer": {
+                "id": "18796",
+                "name": "ВОДОВОЗ.RU",
+                "url": "https://api.hh.ru/employers/18796",
+                "alternate_url": "https://hh.ru/employer/18796",
+                "logo_urls": {
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1079456.png",
+                    "90": "https://img.hhcdn.ru/employer-logo/5938453.png",
+                    "240": "https://img.hhcdn.ru/employer-logo/5938454.png"
                 },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=18796",
+                "accredited_it_employer": false,
+                "employer_rating": {
+                    "total_rating": "4",
+                    "reviews_count": 51
+                },
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Обязательное наличие страховки, медицинской книжки и ИП!",
+                "responsibility": "Взаиморасчёты с заказчиками. Возврат на базу необязателен (обсуждаемо). Наличие грузового автомобиля грузоподъемностью от 900 кг. до 3500 т. "
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "fullDay",
+                "name": "Полный день"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "fly_in_fly_out_duration": [],
+            "work_format": [],
+            "working_hours": [
                 {
-                    "id": "OTHER",
-                    "name": "Другое"
+                    "id": "HOURS_8",
+                    "name": "8 часов"
+                }
+            ],
+            "work_schedule_by_days": [
+                {
+                    "id": "FIVE_ON_TWO_OFF",
+                    "name": "5/2"
                 }
             ],
             "night_shifts": false,
@@ -546,9 +412,9 @@
             "adv_context": null
         },
         {
-            "id": "120631618",
+            "id": "121280212",
             "premium": false,
-            "name": "Водитель-экспедитор с личным грузовым автомобилем",
+            "name": "Водитель со своим грузовым автомобилем",
             "department": null,
             "has_test": false,
             "response_letter_required": false,
@@ -558,24 +424,21 @@
                 "url": "https://api.hh.ru/areas/1"
             },
             "salary": {
-                "from": 300000,
-                "to": 450000,
+                "from": 280000,
+                "to": 430000,
                 "currency": "RUR",
                 "gross": false
             },
             "salary_range": {
-                "from": 300000,
-                "to": 450000,
+                "from": 280000,
+                "to": 430000,
                 "currency": "RUR",
                 "gross": false,
                 "mode": {
                     "id": "MONTH",
                     "name": "За месяц"
                 },
-                "frequency": {
-                    "id": "WEEKLY",
-                    "name": "Раз в неделю"
-                }
+                "frequency": null
             },
             "type": {
                 "id": "open",
@@ -583,86 +446,65 @@
             },
             "address": {
                 "city": "Москва",
-                "street": "1-й Варшавский проезд",
-                "building": "2с9А",
-                "lat": 55.64541,
-                "lng": 37.626484,
+                "street": null,
+                "building": null,
+                "lat": 55.729219,
+                "lng": 37.611185,
                 "description": null,
-                "raw": "Москва, 1-й Варшавский проезд, 2с9А",
+                "raw": "Москва",
                 "metro": {
-                    "station_name": "Варшавская",
-                    "line_name": "Каховская",
-                    "station_id": "11.26",
-                    "line_id": "11",
-                    "lat": 55.653294,
-                    "lng": 37.619522
+                    "station_name": "Октябрьская",
+                    "line_name": "Кольцевая",
+                    "station_id": "5.93",
+                    "line_id": "5",
+                    "lat": 55.729264,
+                    "lng": 37.611049
                 },
                 "metro_stations": [
                     {
-                        "station_name": "Варшавская",
-                        "line_name": "Каховская",
-                        "station_id": "11.26",
-                        "line_id": "11",
-                        "lat": 55.653294,
-                        "lng": 37.619522
-                    },
-                    {
-                        "station_name": "Варшавская",
-                        "line_name": "Большая кольцевая линия",
-                        "station_id": "97.824",
-                        "line_id": "97",
-                        "lat": 55.653333,
-                        "lng": 37.619444
-                    },
-                    {
-                        "station_name": "Каширская",
-                        "line_name": "Каховская",
-                        "station_id": "11.46",
-                        "line_id": "11",
-                        "lat": 55.654327,
-                        "lng": 37.647705
-                    },
-                    {
-                        "station_name": "Чертановская",
-                        "line_name": "Серпуховско-Тимирязевская",
-                        "station_id": "9.156",
-                        "line_id": "9",
-                        "lat": 55.640538,
-                        "lng": 37.606065
+                        "station_name": "Октябрьская",
+                        "line_name": "Кольцевая",
+                        "station_id": "5.93",
+                        "line_id": "5",
+                        "lat": 55.729264,
+                        "lng": 37.611049
                     }
                 ],
-                "id": "12246609"
+                "id": "12584342"
             },
             "response_url": null,
             "sort_point_distance": null,
-            "published_at": "2025-05-22T13:02:46+0300",
-            "created_at": "2025-05-22T13:02:46+0300",
+            "published_at": "2025-06-18T12:38:10+0300",
+            "created_at": "2025-06-18T12:38:10+0300",
             "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=120631618",
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121280212",
             "show_logo_in_search": null,
             "show_contacts": true,
             "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/120631618?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/120631618",
+            "url": "https://api.hh.ru/vacancies/121280212?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/121280212",
             "relations": [],
             "employer": {
-                "id": "5566765",
-                "name": "Кгт Доставка",
-                "url": "https://api.hh.ru/employers/5566765",
-                "alternate_url": "https://hh.ru/employer/5566765",
+                "id": "1689259",
+                "name": "ДЖЕЙКЕТ РАБОТА",
+                "url": "https://api.hh.ru/employers/1689259",
+                "alternate_url": "https://hh.ru/employer/1689259",
                 "logo_urls": {
-                    "original": "https://img.hhcdn.ru/employer-logo-original/1416590.png",
-                    "90": "https://img.hhcdn.ru/employer-logo/7286009.png",
-                    "240": "https://img.hhcdn.ru/employer-logo/7286010.png"
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1402155.png",
+                    "90": "https://img.hhcdn.ru/employer-logo/7228391.png",
+                    "240": "https://img.hhcdn.ru/employer-logo/7228392.png"
                 },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5566765",
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1689259",
                 "accredited_it_employer": false,
-                "employer_rating": null,
+                "employer_rating": {
+                    "total_rating": "4.2",
+                    "reviews_count": 30
+                },
                 "trusted": true
             },
             "snippet": {
-                "requirement": "Наличие ИП (УСН) или статуса \"Cамозанятый\" (Наличие Карты Т-Банка). В/у категории «В». Наличие грузового автомобиля вместимостью от 14...",
-                "responsibility": "Доставка заказов категории бытовой техники (преимущественно), мебели, спорт инвентаря, инструментов, полиграфии - со склада компании. Мелкогабаритные и Крупногабаритные заказы, не только..."
+                "requirement": "Порядочность и коммуникабельность. Личный автомобиль. Водительские права_B.",
+                "responsibility": "Перевозка груза собственного производства, по своим складам. Грузовой автомобиль. Оформление сопроводительных документов. Своевременная доставка грузов. Держать автомобиль в исправном состоянии. "
             },
             "contacts": null,
             "schedule": {
@@ -674,29 +516,135 @@
             "working_time_modes": [],
             "accept_temporary": true,
             "fly_in_fly_out_duration": [],
+            "work_format": [
+                {
+                    "id": "FIELD_WORK",
+                    "name": "Разъездной"
+                }
+            ],
+            "working_hours": [
+                {
+                    "id": "FLEXIBLE",
+                    "name": "По договорённости"
+                }
+            ],
+            "work_schedule_by_days": [
+                {
+                    "id": "FIVE_ON_TWO_OFF",
+                    "name": "5/2"
+                }
+            ],
+            "night_shifts": false,
+            "professional_roles": [
+                {
+                    "id": "21",
+                    "name": "Водитель"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "employment_form": {
+                "id": "FULL",
+                "name": "Полная"
+            },
+            "internship": false,
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "121239425",
+            "premium": false,
+            "name": "Водитель категории «В» / Водитель Техстанции",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 250000,
+                "to": 450000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "salary_range": {
+                "from": 250000,
+                "to": 450000,
+                "currency": "RUR",
+                "gross": false,
+                "mode": {
+                    "id": "MONTH",
+                    "name": "За месяц"
+                },
+                "frequency": null
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2025-06-17T16:46:29+0300",
+            "created_at": "2025-06-17T16:46:29+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121239425",
+            "show_logo_in_search": null,
+            "show_contacts": true,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/121239425?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/121239425",
+            "relations": [],
+            "employer": {
+                "id": "9539529",
+                "name": "Нитченко Илья Ярославович",
+                "url": "https://api.hh.ru/employers/9539529",
+                "alternate_url": "https://hh.ru/employer/9539529",
+                "logo_urls": {
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1118891.png",
+                    "90": "https://img.hhcdn.ru/employer-logo/6096157.png",
+                    "240": "https://img.hhcdn.ru/employer-logo/6096158.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9539529",
+                "accredited_it_employer": false,
+                "employer_rating": null,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Права категории «В». Реальный стаж вождения (не формальный) от 3-х лет. Опыт вождения схожей по габаритам с цельнометаллическим Fiat...",
+                "responsibility": "Работа в пределах Москвы, с редкими выездами в ближайшие пригороды. Аккуратная, безаварийная эксплуатация автомобиля организации. Грамотное взаимодействие с отделом логистики. "
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "flexible",
+                "name": "Гибкий график"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "fly_in_fly_out_duration": [],
             "work_format": [],
             "working_hours": [
                 {
-                    "id": "HOURS_8",
-                    "name": "8 часов"
+                    "id": "OTHER",
+                    "name": "Другое"
                 }
             ],
             "work_schedule_by_days": [
                 {
                     "id": "SIX_ON_ONE_OFF",
                     "name": "6/1"
-                },
-                {
-                    "id": "FIVE_ON_TWO_OFF",
-                    "name": "5/2"
-                },
-                {
-                    "id": "FOUR_ON_THREE_OFF",
-                    "name": "4/3"
-                },
-                {
-                    "id": "THREE_ON_THREE_OFF",
-                    "name": "3/3"
                 },
                 {
                     "id": "TWO_ON_TWO_OFF",
@@ -712,8 +660,8 @@
             ],
             "accept_incomplete_resumes": false,
             "experience": {
-                "id": "between1And3",
-                "name": "От 1 года до 3 лет"
+                "id": "noExperience",
+                "name": "Нет опыта"
             },
             "employment": {
                 "id": "full",
@@ -729,7 +677,7 @@
             "adv_context": null
         }
     ],
-    "found": 4097,
+    "found": 4606,
     "pages": 400,
     "page": 0,
     "per_page": 5,
