@@ -4,7 +4,7 @@ from loguru import logger
 
 
 class Database:
-    def __init__(self, db_name: str = "user.db"):
+    def __init__(self, db_name: str = "users.db"):
         self.conn = sqlite3.connect(db_name)
         self.create_database()
 
