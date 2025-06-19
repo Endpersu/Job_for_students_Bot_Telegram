@@ -11,7 +11,6 @@ from parser_hh import get_vacancies_by_profession
 import json
 import re
 
-# --- FSM STATES ---
 class Form(StatesGroup):
     first_name = State()
     second_name = State()
@@ -20,7 +19,6 @@ class Form(StatesGroup):
 
 
 def anketa(dp: Dispatcher):
-    # --- ВНЕШНИЕ ХЕНДЛЕРЫ ---
 
     @dp.message(F.text == "О нас🔴")
     async def about_bot(message: types.Message):
@@ -49,7 +47,6 @@ def anketa(dp: Dispatcher):
 
         logger.info(f"Ищем вакансии по профессии: {profession}")
 
-        # Вызываем парсер
         get_vacancies_by_profession(profession)
 
         try:
@@ -57,7 +54,7 @@ def anketa(dp: Dispatcher):
                 vacancies = json.load(file)
 
             if vacancies.get("items"):
-                for item in vacancies["items"][:5]:  # Показываем первые 5 вакансий
+                for item in vacancies["items"][:10]:
                     vacancy_name = item['name']
                     city_name = item['area']['name']
                     alternate_url = item['alternate_url']
@@ -131,7 +128,6 @@ def anketa(dp: Dispatcher):
             await message.answer("Заполнение мини-анкеты завершено. Переходим в меню.", reply_markup=get_main_keyboard())
             logger.info("Пользователь попал в меню")
 
-    # --- ОСНОВНЫЕ ХЕНДЛЕРЫ АНКЕТЫ ---
 
     @dp.message(Command('start'))
     async def cmd_start(message: types.Message, state: FSMContext):
@@ -192,7 +188,6 @@ def anketa(dp: Dispatcher):
         logger.info("Пользователь проверяет свои данные")
 
 
-# --- ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ ---
 
 def clean_text(text: str) -> str:
     """
