@@ -6,7 +6,7 @@ def get_vacancies_by_profession(profession):
     params = {
         'text': profession,
         'area': 1,
-        'per_page': 5,
+        'per_page': 10,
         'page': 0,
         'order_by': 'salary_desc'
     }

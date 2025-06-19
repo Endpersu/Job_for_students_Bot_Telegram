@@ -1,9 +1,9 @@
 {
     "items": [
         {
-            "id": "118585476",
+            "id": "120228051",
             "premium": false,
-            "name": "Водитель с личным грузовым автомобилем от 5-10 тонн (Москва-Московская область)",
+            "name": "Специалист по привлечению инвестиций / ивестиционный брокер",
             "department": null,
             "has_test": false,
             "response_letter_required": false,
@@ -13,19 +13,19 @@
                 "url": "https://api.hh.ru/areas/1"
             },
             "salary": {
-                "from": 400000,
-                "to": 450000,
-                "currency": "RUR",
-                "gross": false
+                "from": null,
+                "to": 100000,
+                "currency": "EUR",
+                "gross": true
             },
             "salary_range": {
-                "from": 400000,
-                "to": 450000,
-                "currency": "RUR",
-                "gross": false,
+                "from": null,
+                "to": 100000,
+                "currency": "EUR",
+                "gross": true,
                 "mode": {
-                    "id": "MONTH",
-                    "name": "За месяц"
+                    "id": "SERVICE",
+                    "name": "За услугу"
                 },
                 "frequency": null
             },
@@ -33,60 +33,358 @@
                 "id": "open",
                 "name": "Открытая"
             },
-            "address": {
-                "city": "Балашиха",
-                "street": "микрорайон Железнодорожный, Лесопарковая улица",
-                "building": "вл14",
-                "lat": 55.755297,
-                "lng": 37.994263,
-                "description": null,
-                "raw": "Балашиха, микрорайон Железнодорожный, Лесопарковая улица, вл14",
-                "metro": null,
-                "metro_stations": [],
-                "id": "15556311"
-            },
+            "address": null,
             "response_url": null,
             "sort_point_distance": null,
-            "published_at": "2025-06-17T11:14:06+0300",
-            "created_at": "2025-06-17T11:14:06+0300",
+            "published_at": "2025-06-17T18:17:24+0300",
+            "created_at": "2025-06-17T18:17:24+0300",
             "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=118585476",
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=120228051",
             "show_logo_in_search": null,
             "show_contacts": true,
             "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/118585476?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/118585476",
+            "url": "https://api.hh.ru/vacancies/120228051?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/120228051",
             "relations": [],
             "employer": {
-                "id": "10976785",
-                "name": "ТД Петрострой",
-                "url": "https://api.hh.ru/employers/10976785",
-                "alternate_url": "https://hh.ru/employer/10976785",
+                "id": "11866590",
+                "name": "Avia Solution",
+                "url": "https://api.hh.ru/employers/11866590",
+                "alternate_url": "https://hh.ru/employer/11866590",
                 "logo_urls": {
-                    "original": "https://img.hhcdn.ru/employer-logo-original/1263407.jpg",
-                    "90": "https://img.hhcdn.ru/employer-logo/6673954.jpeg",
-                    "240": "https://img.hhcdn.ru/employer-logo/6673955.jpeg"
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1403455.png",
+                    "90": "https://img.hhcdn.ru/employer-logo/7233488.png",
+                    "240": "https://img.hhcdn.ru/employer-logo/7233489.png"
                 },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10976785",
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11866590",
                 "accredited_it_employer": false,
                 "employer_rating": null,
                 "trusted": true
             },
             "snippet": {
-                "requirement": "Технически исправный автомобиль. Исполнительность, пунктуальность, высокий уровень ответственности и внимательности, желание работать и зарабатывать.",
-                "responsibility": "Перевозка грузов (сыпучих стройматериалов) по Москве и Мо (склад Балашиха). Работа с сопроводительными документами на груз. Своевременная подача авто под..."
+                "requirement": "Опыт в сфере инвестиций, венчурного капитала или M&A от 3 лет. Навыки структурирования сделок, подготовки инвестиционных материалов и расчёта...",
+                "responsibility": "Поиск и привлечение инвесторов (венчурные фонды, частные инвесторы, family offices) для международного проекта в сфере агродронов. Проведение презентаций, переговоров, участие..."
             },
             "contacts": null,
             "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
+                "id": "remote",
+                "name": "Удаленная работа"
             },
             "working_days": [],
             "working_time_intervals": [],
             "working_time_modes": [],
             "accept_temporary": false,
             "fly_in_fly_out_duration": [],
-            "work_format": [],
+            "work_format": [
+                {
+                    "id": "REMOTE",
+                    "name": "Удалённо"
+                }
+            ],
+            "working_hours": [
+                {
+                    "id": "FLEXIBLE",
+                    "name": "По договорённости"
+                }
+            ],
+            "work_schedule_by_days": [
+                {
+                    "id": "FLEXIBLE",
+                    "name": "Свободный"
+                }
+            ],
+            "night_shifts": false,
+            "professional_roles": [
+                {
+                    "id": "134",
+                    "name": "Финансовый аналитик, инвестиционный аналитик"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "project",
+                "name": "Проектная работа"
+            },
+            "employment_form": {
+                "id": "PROJECT",
+                "name": "Проект или разовое задание"
+            },
+            "internship": false,
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "121544018",
+            "premium": false,
+            "name": "CEO | Генеральный директор бренда уходовой косметики VOIS",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 500000,
+                "to": 10000000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "salary_range": {
+                "from": 500000,
+                "to": 10000000,
+                "currency": "RUR",
+                "gross": false,
+                "mode": {
+                    "id": "MONTH",
+                    "name": "За месяц"
+                },
+                "frequency": {
+                    "id": "TWICE_PER_MONTH",
+                    "name": "Два раза в месяц"
+                }
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2025-06-17T09:34:15+0300",
+            "created_at": "2025-06-17T09:34:15+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121544018",
+            "show_logo_in_search": null,
+            "show_contacts": false,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/121544018?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/121544018",
+            "relations": [],
+            "employer": {
+                "id": "6082210",
+                "name": "РОКЕТ ЛАУНЧ",
+                "url": "https://api.hh.ru/employers/6082210",
+                "alternate_url": "https://hh.ru/employer/6082210",
+                "logo_urls": {
+                    "original": "https://img.hhcdn.ru/employer-logo-original/959232.jpg",
+                    "90": "https://img.hhcdn.ru/employer-logo/4277452.jpeg",
+                    "240": "https://img.hhcdn.ru/employer-logo/4277453.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6082210",
+                "accredited_it_employer": false,
+                "employer_rating": {
+                    "total_rating": "4.7",
+                    "reviews_count": 54
+                },
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": null,
+                "responsibility": "Постановка целей компании и декомпозиция их по департаментам. Формирование и регулярная актуализация стратегии. Реализация стратегии и достижение целей компании. "
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "remote",
+                "name": "Удаленная работа"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "fly_in_fly_out_duration": [],
+            "work_format": [
+                {
+                    "id": "REMOTE",
+                    "name": "Удалённо"
+                }
+            ],
+            "working_hours": [
+                {
+                    "id": "HOURS_9",
+                    "name": "9 часов"
+                }
+            ],
+            "work_schedule_by_days": [
+                {
+                    "id": "FIVE_ON_TWO_OFF",
+                    "name": "5/2"
+                }
+            ],
+            "night_shifts": false,
+            "professional_roles": [
+                {
+                    "id": "26",
+                    "name": "Генеральный директор, исполнительный директор (CEO)"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "moreThan6",
+                "name": "Более 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "employment_form": {
+                "id": "FULL",
+                "name": "Полная"
+            },
+            "internship": false,
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "121186913",
+            "premium": false,
+            "name": "Менеджер",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": true,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": null,
+                "to": 5000000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "salary_range": {
+                "from": null,
+                "to": 5000000,
+                "currency": "RUR",
+                "gross": false,
+                "mode": {
+                    "id": "MONTH",
+                    "name": "За месяц"
+                },
+                "frequency": {
+                    "id": "TWICE_PER_MONTH",
+                    "name": "Два раза в месяц"
+                }
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Дмитровское шоссе",
+                "building": "81",
+                "lat": 55.861853,
+                "lng": 37.549561,
+                "description": null,
+                "raw": "Москва, Дмитровское шоссе, 81",
+                "metro": {
+                    "station_name": "Верхние Лихоборы",
+                    "line_name": "Люблинско-Дмитровская",
+                    "station_id": "10.598",
+                    "line_id": "10",
+                    "lat": 55.85566,
+                    "lng": 37.56282
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Верхние Лихоборы",
+                        "line_name": "Люблинско-Дмитровская",
+                        "station_id": "10.598",
+                        "line_id": "10",
+                        "lat": 55.85566,
+                        "lng": 37.56282
+                    },
+                    {
+                        "station_name": "Лихоборы",
+                        "line_name": "МЦД-3",
+                        "station_id": "135.848",
+                        "line_id": "135",
+                        "lat": 55.85,
+                        "lng": 37.5525
+                    },
+                    {
+                        "station_name": "Моссельмаш",
+                        "line_name": "МЦД-3",
+                        "station_id": "135.847",
+                        "line_id": "135",
+                        "lat": 55.862222,
+                        "lng": 37.526389
+                    },
+                    {
+                        "station_name": "Селигерская",
+                        "line_name": "Люблинско-Дмитровская",
+                        "station_id": "10.597",
+                        "line_id": "10",
+                        "lat": 55.86483,
+                        "lng": 37.55005
+                    }
+                ],
+                "id": "15875770"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2025-05-31T11:31:32+0300",
+            "created_at": "2025-05-31T11:31:32+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121186913",
+            "show_logo_in_search": null,
+            "show_contacts": false,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/121186913?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/121186913",
+            "relations": [],
+            "employer": {
+                "id": "9825293",
+                "name": "Строительная компания FRIBER",
+                "url": "https://api.hh.ru/employers/9825293",
+                "alternate_url": "https://hh.ru/employer/9825293",
+                "logo_urls": {
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1279130.jpg",
+                    "90": "https://img.hhcdn.ru/employer-logo/6736822.jpeg",
+                    "240": "https://img.hhcdn.ru/employer-logo/6736823.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9825293",
+                "accredited_it_employer": false,
+                "employer_rating": null,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Менеджер по партнёрской сети (с вайбом — и мозгом, и харизмой). Москва и окрестности / немного онлайн / везде, где можно продать красиво. ",
+                "responsibility": "Вести CRM так, чтобы даже робот с ней подружился. Устраивать нетворкинг-встречи, где шампанское — не основное, а повод. "
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "remote",
+                "name": "Удаленная работа"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "fly_in_fly_out_duration": [],
+            "work_format": [
+                {
+                    "id": "REMOTE",
+                    "name": "Удалённо"
+                },
+                {
+                    "id": "HYBRID",
+                    "name": "Гибрид"
+                },
+                {
+                    "id": "FIELD_WORK",
+                    "name": "Разъездной"
+                }
+            ],
             "working_hours": [
                 {
                     "id": "HOURS_8",
@@ -102,8 +400,8 @@
             "night_shifts": false,
             "professional_roles": [
                 {
-                    "id": "21",
-                    "name": "Водитель"
+                    "id": "40",
+                    "name": "Другое"
                 }
             ],
             "accept_incomplete_resumes": false,
@@ -125,9 +423,9 @@
             "adv_context": null
         },
         {
-            "id": "121129558",
+            "id": "121184386",
             "premium": false,
-            "name": "Водитель категории B",
+            "name": "Менеджер по продажам",
             "department": null,
             "has_test": false,
             "response_letter_required": false,
@@ -137,24 +435,21 @@
                 "url": "https://api.hh.ru/areas/1"
             },
             "salary": {
-                "from": 350000,
-                "to": null,
+                "from": 650000,
+                "to": 6200000,
                 "currency": "RUR",
-                "gross": true
+                "gross": false
             },
             "salary_range": {
-                "from": 350000,
-                "to": null,
+                "from": 650000,
+                "to": 6200000,
                 "currency": "RUR",
-                "gross": true,
+                "gross": false,
                 "mode": {
                     "id": "MONTH",
                     "name": "За месяц"
                 },
-                "frequency": {
-                    "id": "WEEKLY",
-                    "name": "Раз в неделю"
-                }
+                "frequency": null
             },
             "type": {
                 "id": "open",
@@ -163,42 +458,42 @@
             "address": null,
             "response_url": null,
             "sort_point_distance": null,
-            "published_at": "2025-05-29T14:15:53+0300",
-            "created_at": "2025-05-29T14:15:53+0300",
+            "published_at": "2025-06-17T23:57:23+0300",
+            "created_at": "2025-06-17T23:57:23+0300",
             "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121129558",
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121184386",
             "show_logo_in_search": null,
-            "show_contacts": true,
+            "show_contacts": false,
             "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/121129558?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/121129558",
+            "url": "https://api.hh.ru/vacancies/121184386?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/121184386",
             "relations": [],
             "employer": {
-                "id": "11724516",
-                "name": "Мэни Хэндс",
-                "url": "https://api.hh.ru/employers/11724516",
-                "alternate_url": "https://hh.ru/employer/11724516",
+                "id": "9171599",
+                "name": "ESTADEL",
+                "url": "https://api.hh.ru/employers/9171599",
+                "alternate_url": "https://hh.ru/employer/9171599",
                 "logo_urls": {
-                    "original": "https://img.hhcdn.ru/employer-logo-original/1426110.png",
-                    "90": "https://img.hhcdn.ru/employer-logo/7324089.png",
-                    "240": "https://img.hhcdn.ru/employer-logo/7324090.png"
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1048304.jpg",
+                    "90": "https://img.hhcdn.ru/employer-logo/5813869.jpeg",
+                    "240": "https://img.hhcdn.ru/employer-logo/5813870.jpeg"
                 },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11724516",
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9171599",
                 "accredited_it_employer": false,
                 "employer_rating": {
-                    "total_rating": "5",
-                    "reviews_count": 2
+                    "total_rating": "4.7",
+                    "reviews_count": 81
                 },
                 "trusted": true
             },
             "snippet": {
-                "requirement": "Амбициозность, желание зарабатывать. Опыт вождения категория B (от 1 года). Наличие собственного авто от 4 метров (не битый, без ржавчины). ",
-                "responsibility": "Доставка строительных материалов по Москве и Московской области. Погрузка/разгрузка. Взаимодействие с логистами и клиентами."
+                "requirement": "Жить свободно. -Средний чек от 13,5 млн . -Работаешь где угодно — нужен только ноут и голова. -Продавец с опытом от...",
+                "responsibility": "Играть по-взрослому. -Устал продавать “за 100к”?"
             },
             "contacts": null,
             "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
+                "id": "remote",
+                "name": "Удаленная работа"
             },
             "working_days": [],
             "working_time_intervals": [],
@@ -207,42 +502,30 @@
             "fly_in_fly_out_duration": [],
             "work_format": [
                 {
-                    "id": "FIELD_WORK",
-                    "name": "Разъездной"
+                    "id": "REMOTE",
+                    "name": "Удалённо"
                 }
             ],
             "working_hours": [
                 {
                     "id": "HOURS_8",
                     "name": "8 часов"
-                },
-                {
-                    "id": "HOURS_10",
-                    "name": "10 часов"
                 }
             ],
             "work_schedule_by_days": [
                 {
-                    "id": "SIX_ON_ONE_OFF",
-                    "name": "6/1"
-                },
-                {
                     "id": "FIVE_ON_TWO_OFF",
                     "name": "5/2"
-                },
-                {
-                    "id": "THREE_ON_THREE_OFF",
-                    "name": "3/3"
                 }
             ],
             "night_shifts": false,
             "professional_roles": [
                 {
-                    "id": "21",
-                    "name": "Водитель"
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
                 }
             ],
-            "accept_incomplete_resumes": true,
+            "accept_incomplete_resumes": false,
             "experience": {
                 "id": "between1And3",
                 "name": "От 1 года до 3 лет"
@@ -261,9 +544,9 @@
             "adv_context": null
         },
         {
-            "id": "118108383",
+            "id": "121471578",
             "premium": false,
-            "name": "Водитель с личным грузовым автомобилем",
+            "name": "Премиум-менеджер по продажам в инвестиционный отдел",
             "department": null,
             "has_test": false,
             "response_letter_required": false,
@@ -273,313 +556,14 @@
                 "url": "https://api.hh.ru/areas/1"
             },
             "salary": {
-                "from": 200000,
-                "to": 545000,
+                "from": 650000,
+                "to": 6200000,
                 "currency": "RUR",
                 "gross": false
             },
             "salary_range": {
-                "from": 200000,
-                "to": 545000,
-                "currency": "RUR",
-                "gross": false,
-                "mode": {
-                    "id": "MONTH",
-                    "name": "За месяц"
-                },
-                "frequency": null
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": null,
-                "street": null,
-                "building": null,
-                "lat": null,
-                "lng": null,
-                "description": null,
-                "raw": null,
-                "metro": {
-                    "station_name": "Домодедовская",
-                    "line_name": "Замоскворецкая",
-                    "station_id": "2.38",
-                    "line_id": "2",
-                    "lat": 55.610131,
-                    "lng": 37.717111
-                },
-                "metro_stations": [
-                    {
-                        "station_name": "Домодедовская",
-                        "line_name": "Замоскворецкая",
-                        "station_id": "2.38",
-                        "line_id": "2",
-                        "lat": 55.610131,
-                        "lng": 37.717111
-                    },
-                    {
-                        "station_name": "Орехово",
-                        "line_name": "Замоскворецкая",
-                        "station_id": "2.96",
-                        "line_id": "2",
-                        "lat": 55.61269,
-                        "lng": 37.695214
-                    }
-                ],
-                "id": "12746753"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2025-06-10T11:22:39+0300",
-            "created_at": "2025-06-10T11:22:39+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=118108383",
-            "show_logo_in_search": null,
-            "show_contacts": true,
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/118108383?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/118108383",
-            "relations": [],
-            "employer": {
-                "id": "18796",
-                "name": "ВОДОВОЗ.RU",
-                "url": "https://api.hh.ru/employers/18796",
-                "alternate_url": "https://hh.ru/employer/18796",
-                "logo_urls": {
-                    "original": "https://img.hhcdn.ru/employer-logo-original/1079456.png",
-                    "90": "https://img.hhcdn.ru/employer-logo/5938453.png",
-                    "240": "https://img.hhcdn.ru/employer-logo/5938454.png"
-                },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=18796",
-                "accredited_it_employer": false,
-                "employer_rating": {
-                    "total_rating": "4",
-                    "reviews_count": 51
-                },
-                "trusted": true
-            },
-            "snippet": {
-                "requirement": "Обязательное наличие страховки, медицинской книжки и ИП!",
-                "responsibility": "Взаиморасчёты с заказчиками. Возврат на базу необязателен (обсуждаемо). Наличие грузового автомобиля грузоподъемностью от 900 кг. до 3500 т. "
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": false,
-            "fly_in_fly_out_duration": [],
-            "work_format": [],
-            "working_hours": [
-                {
-                    "id": "HOURS_8",
-                    "name": "8 часов"
-                }
-            ],
-            "work_schedule_by_days": [
-                {
-                    "id": "FIVE_ON_TWO_OFF",
-                    "name": "5/2"
-                }
-            ],
-            "night_shifts": false,
-            "professional_roles": [
-                {
-                    "id": "21",
-                    "name": "Водитель"
-                }
-            ],
-            "accept_incomplete_resumes": true,
-            "experience": {
-                "id": "noExperience",
-                "name": "Нет опыта"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "employment_form": {
-                "id": "FULL",
-                "name": "Полная"
-            },
-            "internship": false,
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "121280212",
-            "premium": false,
-            "name": "Водитель со своим грузовым автомобилем",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "1",
-                "name": "Москва",
-                "url": "https://api.hh.ru/areas/1"
-            },
-            "salary": {
-                "from": 280000,
-                "to": 430000,
-                "currency": "RUR",
-                "gross": false
-            },
-            "salary_range": {
-                "from": 280000,
-                "to": 430000,
-                "currency": "RUR",
-                "gross": false,
-                "mode": {
-                    "id": "MONTH",
-                    "name": "За месяц"
-                },
-                "frequency": null
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": "Москва",
-                "street": null,
-                "building": null,
-                "lat": 55.729219,
-                "lng": 37.611185,
-                "description": null,
-                "raw": "Москва",
-                "metro": {
-                    "station_name": "Октябрьская",
-                    "line_name": "Кольцевая",
-                    "station_id": "5.93",
-                    "line_id": "5",
-                    "lat": 55.729264,
-                    "lng": 37.611049
-                },
-                "metro_stations": [
-                    {
-                        "station_name": "Октябрьская",
-                        "line_name": "Кольцевая",
-                        "station_id": "5.93",
-                        "line_id": "5",
-                        "lat": 55.729264,
-                        "lng": 37.611049
-                    }
-                ],
-                "id": "12584342"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2025-06-18T12:38:10+0300",
-            "created_at": "2025-06-18T12:38:10+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121280212",
-            "show_logo_in_search": null,
-            "show_contacts": true,
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/121280212?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/121280212",
-            "relations": [],
-            "employer": {
-                "id": "1689259",
-                "name": "ДЖЕЙКЕТ РАБОТА",
-                "url": "https://api.hh.ru/employers/1689259",
-                "alternate_url": "https://hh.ru/employer/1689259",
-                "logo_urls": {
-                    "original": "https://img.hhcdn.ru/employer-logo-original/1402155.png",
-                    "90": "https://img.hhcdn.ru/employer-logo/7228391.png",
-                    "240": "https://img.hhcdn.ru/employer-logo/7228392.png"
-                },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1689259",
-                "accredited_it_employer": false,
-                "employer_rating": {
-                    "total_rating": "4.2",
-                    "reviews_count": 30
-                },
-                "trusted": true
-            },
-            "snippet": {
-                "requirement": "Порядочность и коммуникабельность. Личный автомобиль. Водительские права_B.",
-                "responsibility": "Перевозка груза собственного производства, по своим складам. Грузовой автомобиль. Оформление сопроводительных документов. Своевременная доставка грузов. Держать автомобиль в исправном состоянии. "
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": true,
-            "fly_in_fly_out_duration": [],
-            "work_format": [
-                {
-                    "id": "FIELD_WORK",
-                    "name": "Разъездной"
-                }
-            ],
-            "working_hours": [
-                {
-                    "id": "FLEXIBLE",
-                    "name": "По договорённости"
-                }
-            ],
-            "work_schedule_by_days": [
-                {
-                    "id": "FIVE_ON_TWO_OFF",
-                    "name": "5/2"
-                }
-            ],
-            "night_shifts": false,
-            "professional_roles": [
-                {
-                    "id": "21",
-                    "name": "Водитель"
-                }
-            ],
-            "accept_incomplete_resumes": true,
-            "experience": {
-                "id": "noExperience",
-                "name": "Нет опыта"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "employment_form": {
-                "id": "FULL",
-                "name": "Полная"
-            },
-            "internship": false,
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "121239425",
-            "premium": false,
-            "name": "Водитель категории «В» / Водитель Техстанции",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "1",
-                "name": "Москва",
-                "url": "https://api.hh.ru/areas/1"
-            },
-            "salary": {
-                "from": 250000,
-                "to": 450000,
-                "currency": "RUR",
-                "gross": false
-            },
-            "salary_range": {
-                "from": 250000,
-                "to": 450000,
+                "from": 650000,
+                "to": 6200000,
                 "currency": "RUR",
                 "gross": false,
                 "mode": {
@@ -595,73 +579,713 @@
             "address": null,
             "response_url": null,
             "sort_point_distance": null,
-            "published_at": "2025-06-17T16:46:29+0300",
-            "created_at": "2025-06-17T16:46:29+0300",
+            "published_at": "2025-06-18T13:53:08+0300",
+            "created_at": "2025-06-18T13:53:08+0300",
             "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121239425",
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121471578",
             "show_logo_in_search": null,
-            "show_contacts": true,
+            "show_contacts": false,
             "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/121239425?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/121239425",
+            "url": "https://api.hh.ru/vacancies/121471578?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/121471578",
             "relations": [],
             "employer": {
-                "id": "9539529",
-                "name": "Нитченко Илья Ярославович",
-                "url": "https://api.hh.ru/employers/9539529",
-                "alternate_url": "https://hh.ru/employer/9539529",
+                "id": "9171599",
+                "name": "ESTADEL",
+                "url": "https://api.hh.ru/employers/9171599",
+                "alternate_url": "https://hh.ru/employer/9171599",
                 "logo_urls": {
-                    "original": "https://img.hhcdn.ru/employer-logo-original/1118891.png",
-                    "90": "https://img.hhcdn.ru/employer-logo/6096157.png",
-                    "240": "https://img.hhcdn.ru/employer-logo/6096158.png"
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1048304.jpg",
+                    "90": "https://img.hhcdn.ru/employer-logo/5813869.jpeg",
+                    "240": "https://img.hhcdn.ru/employer-logo/5813870.jpeg"
                 },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9539529",
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9171599",
                 "accredited_it_employer": false,
-                "employer_rating": null,
+                "employer_rating": {
+                    "total_rating": "4.7",
+                    "reviews_count": 81
+                },
                 "trusted": true
             },
             "snippet": {
-                "requirement": "Права категории «В». Реальный стаж вождения (не формальный) от 3-х лет. Опыт вождения схожей по габаритам с цельнометаллическим Fiat...",
-                "responsibility": "Работа в пределах Москвы, с редкими выездами в ближайшие пригороды. Аккуратная, безаварийная эксплуатация автомобиля организации. Грамотное взаимодействие с отделом логистики. "
+                "requirement": "Что нужно от тебя. — Опыт в продажах от 1 года. — Уверенность, скорость, точность. — Желание расти и продавать серьёзный продукт.",
+                "responsibility": null
             },
             "contacts": null,
             "schedule": {
-                "id": "flexible",
-                "name": "Гибкий график"
+                "id": "remote",
+                "name": "Удаленная работа"
             },
             "working_days": [],
             "working_time_intervals": [],
             "working_time_modes": [],
             "accept_temporary": false,
             "fly_in_fly_out_duration": [],
-            "work_format": [],
+            "work_format": [
+                {
+                    "id": "REMOTE",
+                    "name": "Удалённо"
+                }
+            ],
             "working_hours": [
                 {
-                    "id": "OTHER",
-                    "name": "Другое"
+                    "id": "HOURS_8",
+                    "name": "8 часов"
                 }
             ],
             "work_schedule_by_days": [
                 {
-                    "id": "SIX_ON_ONE_OFF",
-                    "name": "6/1"
-                },
-                {
-                    "id": "TWO_ON_TWO_OFF",
-                    "name": "2/2"
+                    "id": "FIVE_ON_TWO_OFF",
+                    "name": "5/2"
                 }
             ],
             "night_shifts": false,
             "professional_roles": [
                 {
-                    "id": "21",
-                    "name": "Водитель"
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
                 }
             ],
             "accept_incomplete_resumes": false,
             "experience": {
-                "id": "noExperience",
-                "name": "Нет опыта"
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "employment_form": {
+                "id": "FULL",
+                "name": "Полная"
+            },
+            "internship": false,
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "121523282",
+            "premium": false,
+            "name": "Топ - менеджер по продажам (входящий трафик)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 650000,
+                "to": 6200000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "salary_range": {
+                "from": 650000,
+                "to": 6200000,
+                "currency": "RUR",
+                "gross": false,
+                "mode": {
+                    "id": "MONTH",
+                    "name": "За месяц"
+                },
+                "frequency": null
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2025-06-19T14:55:36+0300",
+            "created_at": "2025-06-19T14:55:36+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121523282",
+            "show_logo_in_search": null,
+            "show_contacts": false,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/121523282?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/121523282",
+            "relations": [],
+            "employer": {
+                "id": "9171599",
+                "name": "ESTADEL",
+                "url": "https://api.hh.ru/employers/9171599",
+                "alternate_url": "https://hh.ru/employer/9171599",
+                "logo_urls": {
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1048304.jpg",
+                    "90": "https://img.hhcdn.ru/employer-logo/5813869.jpeg",
+                    "240": "https://img.hhcdn.ru/employer-logo/5813870.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9171599",
+                "accredited_it_employer": false,
+                "employer_rating": {
+                    "total_rating": "4.7",
+                    "reviews_count": 81
+                },
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт в продажах от 1 года (опыт в сфере недвижимости будет твоим преимуществом). Желание зарабатывать без ограничений, голод до денег. ",
+                "responsibility": "Обрабатывать только горячие заявки. Осуществлять все этапы продаж, от первого касания до завершения сделки. Грамотно выявлять потребности и боли клиентов. "
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "remote",
+                "name": "Удаленная работа"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "fly_in_fly_out_duration": [],
+            "work_format": [
+                {
+                    "id": "REMOTE",
+                    "name": "Удалённо"
+                }
+            ],
+            "working_hours": [
+                {
+                    "id": "HOURS_9",
+                    "name": "9 часов"
+                }
+            ],
+            "work_schedule_by_days": [
+                {
+                    "id": "FIVE_ON_TWO_OFF",
+                    "name": "5/2"
+                }
+            ],
+            "night_shifts": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "employment_form": {
+                "id": "FULL",
+                "name": "Полная"
+            },
+            "internship": false,
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "121436569",
+            "premium": false,
+            "name": "Продажник",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 560000,
+                "to": 6200000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "salary_range": {
+                "from": 560000,
+                "to": 6200000,
+                "currency": "RUR",
+                "gross": false,
+                "mode": {
+                    "id": "MONTH",
+                    "name": "За месяц"
+                },
+                "frequency": null
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2025-06-19T10:54:51+0300",
+            "created_at": "2025-06-19T10:54:51+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121436569",
+            "branding": {
+                "type": "CONSTRUCTOR",
+                "tariff": "BASIC"
+            },
+            "show_logo_in_search": true,
+            "show_contacts": false,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/121436569?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/121436569",
+            "relations": [],
+            "employer": {
+                "id": "9171599",
+                "name": "ESTADEL",
+                "url": "https://api.hh.ru/employers/9171599",
+                "alternate_url": "https://hh.ru/employer/9171599",
+                "logo_urls": {
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1048304.jpg",
+                    "90": "https://img.hhcdn.ru/employer-logo/5813869.jpeg",
+                    "240": "https://img.hhcdn.ru/employer-logo/5813870.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9171599",
+                "accredited_it_employer": false,
+                "employer_rating": {
+                    "total_rating": "4.7",
+                    "reviews_count": 81
+                },
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт в продажах от 1 года (любая сфера: авто, финансы, обучение, недвижимость). Напористость, уверенность, скорость. Голод по результату, а не...",
+                "responsibility": "7–10 горячих заявок в день — клиенты уже идут, ты просто закрываешь. Поддержка на старте, система и автоматизация — всё готово. "
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "remote",
+                "name": "Удаленная работа"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "fly_in_fly_out_duration": [],
+            "work_format": [
+                {
+                    "id": "REMOTE",
+                    "name": "Удалённо"
+                }
+            ],
+            "working_hours": [
+                {
+                    "id": "HOURS_8",
+                    "name": "8 часов"
+                }
+            ],
+            "work_schedule_by_days": [
+                {
+                    "id": "FIVE_ON_TWO_OFF",
+                    "name": "5/2"
+                }
+            ],
+            "night_shifts": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "employment_form": {
+                "id": "FULL",
+                "name": "Полная"
+            },
+            "internship": false,
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "121617215",
+            "premium": false,
+            "name": "Топовый менеджер по продажам",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 550000,
+                "to": 6200000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "salary_range": {
+                "from": 550000,
+                "to": 6200000,
+                "currency": "RUR",
+                "gross": false,
+                "mode": {
+                    "id": "MONTH",
+                    "name": "За месяц"
+                },
+                "frequency": null
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2025-06-19T12:34:11+0300",
+            "created_at": "2025-06-19T12:34:11+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121617215",
+            "branding": {
+                "type": "CONSTRUCTOR",
+                "tariff": "BASIC"
+            },
+            "show_logo_in_search": true,
+            "show_contacts": false,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/121617215?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/121617215",
+            "relations": [],
+            "employer": {
+                "id": "9171599",
+                "name": "ESTADEL",
+                "url": "https://api.hh.ru/employers/9171599",
+                "alternate_url": "https://hh.ru/employer/9171599",
+                "logo_urls": {
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1048304.jpg",
+                    "90": "https://img.hhcdn.ru/employer-logo/5813869.jpeg",
+                    "240": "https://img.hhcdn.ru/employer-logo/5813870.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9171599",
+                "accredited_it_employer": false,
+                "employer_rating": {
+                    "total_rating": "4.7",
+                    "reviews_count": 81
+                },
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Рост до тимлида или руководителя направления. Что нужно от тебя: — Опыт в продажах от 1 года. Уверенность, скорость, точность. — ",
+                "responsibility": null
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "remote",
+                "name": "Удаленная работа"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "fly_in_fly_out_duration": [],
+            "work_format": [
+                {
+                    "id": "REMOTE",
+                    "name": "Удалённо"
+                }
+            ],
+            "working_hours": [
+                {
+                    "id": "HOURS_9",
+                    "name": "9 часов"
+                }
+            ],
+            "work_schedule_by_days": [
+                {
+                    "id": "FIVE_ON_TWO_OFF",
+                    "name": "5/2"
+                }
+            ],
+            "night_shifts": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "employment_form": {
+                "id": "FULL",
+                "name": "Полная"
+            },
+            "internship": false,
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "121810051",
+            "premium": false,
+            "name": "Продажник (элитная недвижимость)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 450000,
+                "to": 6200000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "salary_range": {
+                "from": 450000,
+                "to": 6200000,
+                "currency": "RUR",
+                "gross": false,
+                "mode": {
+                    "id": "MONTH",
+                    "name": "За месяц"
+                },
+                "frequency": null
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Сочи",
+                "street": "микрорайон Центральный, Морской переулок",
+                "building": "1к1",
+                "lat": 43.576134,
+                "lng": 39.724229,
+                "description": null,
+                "raw": "Сочи, микрорайон Центральный, Морской переулок, 1к1",
+                "metro": null,
+                "metro_stations": [],
+                "id": "12694867"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2025-06-19T03:14:27+0300",
+            "created_at": "2025-06-19T03:14:27+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121810051",
+            "branding": {
+                "type": "CONSTRUCTOR",
+                "tariff": "BASIC"
+            },
+            "show_logo_in_search": true,
+            "show_contacts": false,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/121810051?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/121810051",
+            "relations": [],
+            "employer": {
+                "id": "9171599",
+                "name": "ESTADEL",
+                "url": "https://api.hh.ru/employers/9171599",
+                "alternate_url": "https://hh.ru/employer/9171599",
+                "logo_urls": {
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1048304.jpg",
+                    "90": "https://img.hhcdn.ru/employer-logo/5813869.jpeg",
+                    "240": "https://img.hhcdn.ru/employer-logo/5813870.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9171599",
+                "accredited_it_employer": false,
+                "employer_rating": {
+                    "total_rating": "4.7",
+                    "reviews_count": 81
+                },
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Не будут ставить потолок.",
+                "responsibility": "ESTADEL. Продавай элитку — живи элитно."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "remote",
+                "name": "Удаленная работа"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "fly_in_fly_out_duration": [],
+            "work_format": [
+                {
+                    "id": "REMOTE",
+                    "name": "Удалённо"
+                }
+            ],
+            "working_hours": [
+                {
+                    "id": "HOURS_8",
+                    "name": "8 часов"
+                }
+            ],
+            "work_schedule_by_days": [
+                {
+                    "id": "FIVE_ON_TWO_OFF",
+                    "name": "5/2"
+                }
+            ],
+            "night_shifts": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "employment_form": {
+                "id": "FULL",
+                "name": "Полная"
+            },
+            "internship": false,
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "120923611",
+            "premium": false,
+            "name": "Топовый менеджер по продажам интересного премиум продукта (входящие заявки)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 350000,
+                "to": 6200000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "salary_range": {
+                "from": 350000,
+                "to": 6200000,
+                "currency": "RUR",
+                "gross": false,
+                "mode": {
+                    "id": "MONTH",
+                    "name": "За месяц"
+                },
+                "frequency": null
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2025-06-16T18:21:04+0300",
+            "created_at": "2025-06-16T18:21:04+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=120923611",
+            "branding": {
+                "type": "CONSTRUCTOR",
+                "tariff": "BASIC"
+            },
+            "show_logo_in_search": true,
+            "show_contacts": true,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/120923611?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/120923611",
+            "relations": [],
+            "employer": {
+                "id": "9171599",
+                "name": "ESTADEL",
+                "url": "https://api.hh.ru/employers/9171599",
+                "alternate_url": "https://hh.ru/employer/9171599",
+                "logo_urls": {
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1048304.jpg",
+                    "90": "https://img.hhcdn.ru/employer-logo/5813869.jpeg",
+                    "240": "https://img.hhcdn.ru/employer-logo/5813870.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9171599",
+                "accredited_it_employer": false,
+                "employer_rating": {
+                    "total_rating": "4.7",
+                    "reviews_count": 81
+                },
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт в АКТИВНЫХ продажах от 1 года (желательно в недвижимости. Навык сканирования клиентов: четкое выявление потребностей и болей. ",
+                "responsibility": "Обрабатывать входящие заявки после call-центра (7-10 лидов/день). Проводить захватывающие презентации и встречи, превращая интерес в готовность выходить..."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "remote",
+                "name": "Удаленная работа"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "fly_in_fly_out_duration": [],
+            "work_format": [
+                {
+                    "id": "REMOTE",
+                    "name": "Удалённо"
+                }
+            ],
+            "working_hours": [
+                {
+                    "id": "HOURS_7",
+                    "name": "7 часов"
+                },
+                {
+                    "id": "HOURS_8",
+                    "name": "8 часов"
+                }
+            ],
+            "work_schedule_by_days": [
+                {
+                    "id": "FIVE_ON_TWO_OFF",
+                    "name": "5/2"
+                }
+            ],
+            "night_shifts": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
             },
             "employment": {
                 "id": "full",
@@ -677,13 +1301,13 @@
             "adv_context": null
         }
     ],
-    "found": 4606,
-    "pages": 400,
+    "found": 21939,
+    "pages": 200,
     "page": 0,
-    "per_page": 5,
+    "per_page": 10,
     "clusters": null,
     "arguments": null,
     "fixes": null,
     "suggests": null,
-    "alternate_url": "https://hh.ru/search/vacancy?area=1&enable_snippets=true&items_on_page=5&order_by=salary_desc&search_field=name&text=%D0%92%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C"
+    "alternate_url": "https://hh.ru/search/vacancy?area=1&enable_snippets=true&items_on_page=10&order_by=salary_desc&schedule=remote"
 }
