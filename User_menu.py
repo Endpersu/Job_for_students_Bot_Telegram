@@ -20,3 +20,4 @@ def get_profile_keyboard() -> ReplyKeyboardMarkup:
         [KeyboardButton(text="Вернуться в меню⬅️")]
     ]
     return ReplyKeyboardMarkup(keyboard=buttons, resize_keyboard=True)
+    
